@@ -1,0 +1,68 @@
+body{
+    background-image: url("supermarket.jpg") ;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    background-color: #364ff4;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+}
+.welcome{
+    background-color: #364ff4;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+}
+.homepage1{
+    border-radius: 8px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+caption{
+    background-color: #364ff4;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+table,th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+}
+th{
+    height: 80px;
+    background-color: #6a6ae9;
+    color: white;
+}
+td{
+    text-align: center;
+}
+tr:hover {
+    background-color:rgb(15, 234, 234);
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+button{
+        background-color: rgb(125, 189, 252);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;        
+        font-size: 16px;
+        margin: 4px 2px;
+}

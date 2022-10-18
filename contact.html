@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #d0d0ff;
+        }
+
+        header {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+
+        img {
+            border-radius: 8px;
+
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        details {
+            font-size: large;
+        }
+
+        legend {
+            font-size: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 7px;
+            color: lightgray;
+        }
+
+        a {
+            background-color: lightgray;
+            color: rgb(0, 0, 0);
+            padding: 14px 20px;
+            margin: 8px 0;
+            float: right;
+            font-style: italic;
+            width: 100%;
+            font-size: larger;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Contact Us</header><br><br>
+    <hr><br><br>
+    <section class="details1">
+        <img src="contactus.jpg" alt="" width="500">
+        <br>
+        <hr><br>
+    </section>
+    <section>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <h3><em>Customer satisfaction is always our top priority!</em></h3>
+            <p>Please feel free to visit our FAQ page before submitting any request to us. <br> We will do our best to reply to you as soon
+            as possible. If you need immediate assistance, please contact one of our customer service agents directly at 16061.</p>
+            <form action="mainpage.html">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">Egypt</option>
+            </select>
+            <label for="subject">Your Masseage</label>
+            <textarea id="subject" name="subject" placeholder="Write Your Letter.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+    </section>
+
+</body>
+
+</html>
